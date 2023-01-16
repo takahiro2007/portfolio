@@ -1,9 +1,12 @@
+import { css } from "@emotion/react";
+import Header from "../components/header";
+import NextPage from "next";
+
 const Home = () => {
   return (
-    <div>
-      <p>aaaa</p>
-      <p>ああああ</p>
-    </div>
+    <>
+      <Header />
+    </>
   );
 };
 
