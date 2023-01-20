@@ -40,12 +40,9 @@ const Header = () => {
     </div>
   );
 };
-//ダークモードの時は、読み込むロゴのファイルを変える
 
 const headerContent = css`
   background: red;
-  max-width: 1332px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
 `;

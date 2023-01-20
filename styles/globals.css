@@ -4,13 +4,3 @@ body {
   margin: 0;
   line-height: 0px;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}

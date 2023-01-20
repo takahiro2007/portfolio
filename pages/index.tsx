@@ -1,11 +1,13 @@
 import { css } from "@emotion/react";
-import Header from "../components/header";
+import Layout from "../components/layout";
 import NextPage from "next";
 
 const Home = () => {
   return (
     <>
-      <Header />
+      <Layout>
+        <a>あああ</a>
+      </Layout>
     </>
   );
 };
