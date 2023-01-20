@@ -17,7 +17,7 @@ const Layout = ({ children }: Props) => {
 };
 //ダークモードの時は、読み込むロゴのファイルを変える
 const layoutContainer = css`
-  max-width: 1332px;
+  max-width: 1124px;
   margin: 0 auto;
 `;
 export default Layout;
