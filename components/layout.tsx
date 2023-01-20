@@ -1,11 +1,11 @@
 import { css } from "@emotion/react";
 import Image from "next/image";
 import { ReactNode } from "react";
+import Header from "./header";
 
 interface Props {
   children: ReactNode;
 }
-import Header from "./header";
 
 const Layout = ({ children }: Props) => {
   return (
