@@ -1,6 +1,7 @@
 import { css } from "@emotion/react";
 import Image from "next/image";
 import { ReactNode } from "react";
+import { ProfileNode } from "../types/microcms";
 import Header from "./header";
 
 interface Props {
