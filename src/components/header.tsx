@@ -22,7 +22,6 @@ const montserratRegular = Montserrat({
 const Header = () => {
 	const isDark = useRecoilValue(isDarkState);
 	const colorSelect = () => {
-		console.log(isDark);
 		if (isDark) {
 			return "white";
 		} else {
