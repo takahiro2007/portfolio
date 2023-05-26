@@ -62,15 +62,21 @@ const homeTopImage = css`
 const profileStyle = {
 	section: css`
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
-		gap: 20px;
+		text-align: center;
+		margin-bottom: 100px;
 	`,
-	style: {
-		icon: css`
-			width: 200px;
-		`,
-	},
+	character: css`
+		line-height: 30px;
+	`,
+
+	icon: css`
+		width: 200px;
+		border-radius: 100%;
+		border: solid 4px white;
+		margin-bottom: 50px;
+	`,
 };
 
 export const getStaticProps = async () => {

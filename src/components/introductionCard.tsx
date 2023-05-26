@@ -74,25 +74,6 @@ const Style = {
 };
 
 const cardStyle = {
-	name: {
-		section: css`
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			text-align: center;
-			margin-bottom: 100px;
-		`,
-		character: css`
-			line-height: 30px;
-		`,
-
-		icon: css`
-			width: 200px;
-			border-radius: 100%;
-			border: solid 4px white;
-			margin-bottom: 50px;
-		`,
-	},
 	year: {
 		character: (colorSelect: string, montserrat: NextFont) => css`
 			color: ${colorSelect};
