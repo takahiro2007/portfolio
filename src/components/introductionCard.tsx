@@ -1,7 +1,6 @@
 import { css } from "@emotion/react";
 import { Montserrat } from "@next/font/google";
 import type { NextFont } from "@next/font";
-import { CSSProperties } from "react";
 const montserratBold = Montserrat({
 	weight: ["800"],
 	style: ["italic"],
